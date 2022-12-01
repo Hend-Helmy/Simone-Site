@@ -1,0 +1,181 @@
+/* Start Section */
+@media screen and (max-width:950px) {
+    .section h2 {
+        font-size: 116px;
+    }
+    .section p {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width:827px) {
+    .section h2 {
+        font-size: 100px;
+    }
+    .section p {
+        font-size: 29px;
+    }
+}
+@media screen and (max-width:715px) {
+    .section h2 {
+        font-size: 80px;
+    }
+    .section p {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:575px) {
+    .section h2 {
+        font-size: 50px;
+    }
+    .section p {
+        font-size: 18px;
+    }
+}
+
+
+/* Start Navbar */
+@media screen and (max-width:950px) {
+    .header .navbar .bars i {
+        display: block;
+    }
+    .header .navbar .links {
+        display: none;
+
+    }
+}
+
+/* i will use the below when bars work */
+/* it dosent work as i want  */
+/* @media screen and (max-width:950px) {
+    .header .navbar  {
+        width: 100%;
+        position: absolute;
+    }
+    .header .navbar .links {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: black;
+        opacity: 0;
+
+    }
+    .header .navbar .links ul {
+        flex-direction: column;
+    }
+    .header .navbar .links li {
+        padding: 10px;
+        border-bottom: 1px solid #313131;
+    }
+    .header .bars:hover  .links {
+        opacity: 1;
+    }
+} */
+
+/* Start About */
+@media screen and (max-width:950px) {
+    .about .text {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .about .data {
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width:700px) {
+    .about .numbers {
+        flex-wrap: wrap;
+    }
+    .about .numbers .box {
+        width: 50%;
+    }
+}
+
+/* Start What I Do Section */
+@media screen and (max-width:770px) {
+    .what-ido .servieces {
+        width: 100%;
+    }
+}
+
+/* Start Resume Section */
+@media screen and (max-width:770px) {
+    .resume .res-content {
+        flex-wrap: wrap;
+    }
+    .skills-content {
+        flex-wrap: wrap;
+
+    }
+    .skills-content .right, .skills-content .left {
+        width: 100%;
+    }
+}
+/* Start Portfolio */
+@media screen and (max-width:860px) {
+    .portfolio .images {
+        flex-wrap: wrap;
+    }
+    .portfolio .image-box {
+        width: 100%;
+    }
+}
+
+/* Start Client Section */
+@media screen and (max-width:1000px) {
+    .client .client-content {
+        flex-wrap: wrap;
+    }
+    .client .client-content .card {
+        margin-bottom: 20px;
+    }
+}
+
+/*  Start Contact Section */ 
+@media screen and (max-width:1100px) {
+    .contact .contact-box .note .inputs {
+        flex-wrap: wrap;
+    }
+    .contact .contact-box .note input {
+        width: 100%;
+    }
+    .contact .contact-box .note .name {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:900px) {
+    .contact .contact-box {
+        flex-wrap: wrap;
+    }
+    .contact .contact-box .address {
+        width: 100%;
+        text-align: center;
+        order: 2;
+        
+    }
+    .contact .contact-box .social-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .contact-box .note {
+        text-align: center;
+        order: 1;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Start Footer Section */
+@media screen and (max-width:990px){
+    .footer .foot-cont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer .foot-cont .copy {
+        margin-bottom: 20px;
+    }
+}
